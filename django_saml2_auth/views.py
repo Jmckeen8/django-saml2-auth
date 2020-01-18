@@ -110,6 +110,7 @@ def _get_saml_client(domain):
                 'want_response_signed': False,
             },
         },
+        'xmlsec_binary': '/home/lnl/bin/xmlsec1',
     }
 
     if 'ENTITY_ID' in settings.SAML2_AUTH:
